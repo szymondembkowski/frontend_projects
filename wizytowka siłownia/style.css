@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+  font-family: 'Varela Round', sans-serif;
+}
+
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+html {    
+  scroll-behavior: smooth;
+  scroll-padding-top: 140px;
+}
+
+
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  background-color: #232323;
+  padding: 0 0 10px 0;
+  
+}
+
+.header h1{
+  color: #F7CE2E;
+  font-size: 4.2rem;
+  margin: 0;
+  text-shadow: 0px 0px 10px #F7CE2E;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.header nav ul{
+  color: #001427;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header nav li{
+  margin: 0 10px;
+}
+
+.header nav li a{
+  color: #E6E8E6;
+  display: block;
+  text-decoration: none;
+  padding: 0;
+
+}
+
+.header nav li a:hover{
+  color: #F7CE2E;
+  transition: 0.3s;
+  text-shadow: 0 0 40px #F7CE2E;
+}
+
+
+body{
+  background-image: url(img/gym.jpg);
+  background-size: cover;
+  background-color: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.content{
+  margin: 0 12%;
+  height: 100%;
+  box-shadow: 40px 0 30px -6px rgba(0, 1, 2, 0.8),
+   -40px 0 30px -4px rgba(0, 0, 0, 0.8);
+
+  backdrop-filter: blur(6px);
+  background-color: rgb(86, 102, 107, 0.6);
+  padding: 0 40px;
+}
+
+.page1{
+  display: flex;
+  margin-top: 120px;
+  height: 90vh;
+  border-bottom: 2px solid rgb(62, 62, 62);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#tekst-bottom{
+  margin-bottom: 80px;
+}
+
+.tekst h1 {
+  padding: 0 40px;
+  margin: 0;
+  font-size: 4.0rem;
+  color: #E6E8E6;
+  margin-bottom: 40px;
+}
+
+.tekst p{
+  color:white;
+  font-size: 2.4rem;
+  margin: 0;
+  
+}
+
+.page2{
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  border-bottom: 2px solid rgb(62, 62, 62);
+}
+
+.page2 h1{
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 4rem;
+  color: #E6E8E6;
+}
+
+.about1, .about2{
+  display: flex;
+  width: 100%;
+}
+
+.tekst1, .tekst2{
+  flex-grow: 1;
+  display: flex;
+  padding: 0;
+  max-width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tekst2 p{
+  text-align: left;
+  color: #E6E8E6;
+  font-size: 1.8rem;
+}
+
+.tekst1 p{
+  text-align: left;
+  color: #E6E8E6;
+  font-size: 1.8rem;
+}
+
+.obrazki{
+  flex: 1;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 20px 0;
+
+}
+
+.obrazki img{
+  height: auto;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#obrazek{
+  margin-bottom: 80px;
+}
+
+.page3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.tekst3 {
+  flex-basis: 80%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  color: #E6E8E6;
+  margin-bottom: 20px;
+}
+
+.tekst3 h1 {
+  font-size: 4rem;
+}
+
+.tekst3 p {
+  font-size: 1.8rem;
+}
+
+.wrapper {
+  flex-basis: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.karta {
+  flex-basis: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.karta img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.tekst4 {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E6E8E6;
+  padding: 0 0 0 20px;
+}
+
+.tekst4 p {
+  font-size: 1.6rem;
+}
+
+
+.footer{
+  height: auto;
+  background-color: #232323;
+  padding: 20px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.kontakt{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.kontakt h3, .lokalizacja h3 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #E6E8E6;
+  font-size: 2.2rem;
+}
+
+
+.kontakt a, .kontakt p{
+  color: #E6E8E6;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  word-break: break-word;
+
+}
+
+@media all and (max-width: 1129px){
+
+  .tekst h1{
+    font-size: 4rem;
+  }
+
+  .header h1{
+    font-size: 3rem;
+  }
+
+  .header nav li{
+    font-size: 1.6rem;
+  }
+
+  .page1{
+    margin: 100px 0 0 0;
+    height:80vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about1, .about2 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tekst1, .tekst2 {
+    max-width: 100%;
+  }
+
+  .tekst1 p, .tekst2 p{
+    margin: 10px;
+  }
+
+  .obrazki{
+    padding: 0;
+  }
+
+  .about1 .obrazki,
+  .about2 .obrazki{
+    width: 100%;
+  }
+
+  .page2 p{
+    text-align: center;
+  }
+
+  .about2{
+    order: 1;
+  }
+
+  .about2 .obrazki{
+    order: 2;
+  }
+
+  .obrazki{
+    margin-bottom: 60px;
+  }
+
+  #tekst-bottom{
+    margin-bottom: 0px;
+  }
+
+  .footer{
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 820px){
+  .header h1{
+    padding: 10px 10px 0 10px;
+    font-size: 3.2rem;
+  }
+
+  .footer{
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .header nav ul{
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .page2 .tekst1 p{
+    text-align: center;
+  }
+
+  .content{
+    margin: 110px 10px 0 10px;
+    padding: 10px;
+  }
+
+  .page1{
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .about2{
+    margin-bottom: -40px;
+  }
+
+  .tekst h1{
+    font-size: 2.6rem;
+  }
+
+ .tekst p{
+    font-size: 2.2rem;
+  }
+
+  .page2 h1{
+    font-size: 2.6rem;
+    margin-bottom: 0;
+  }
+
+  .page2 p{
+    font-size: 1.4rem;
+  }
+
+  .page3 h1{
+    font-size: 2.6rem;
+  }
+
+  .page3 p{
+    font-size: 1.4rem;
+  }
+
+}
+
+@media all and (max-width: 454px){
+  .header h1{
+    padding: 10px 0 10px 0;
+    font-size: 2.0rem;
+  }
+
+  .header nav li{
+    font-size: 1.3rem;
+  }
+
+  .page1 h1{
+    font-size: 1.8rem;
+  }
+
+  .page1 p{
+    font-size: 1.4rem;
+  }
+
+  .page2 h1{
+    font-size: 2.4rem;
+    margin: 0;
+  }
+
+  .page2 p{
+    margin-top: -20px;
+  }
+
+  .tekst3{
+    padding: 0;
+  }
+
+  .page3 p{
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  .page3 h1{
+    font-size: 1.8rem;
+  }
+
+  .content h1{
+    font-size: 1.8rem;
+  }
+
+  .tekst4{
+    margin: 0;
+    padding: 5px;
+  }
+
+  .content{
+    margin-top: 90px;
+  }
+}
+
